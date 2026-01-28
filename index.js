@@ -1,6 +1,6 @@
-let introduction = 'idk'
-"It includes a single quote: \' .<br>" +
-"It includes a double quote: \" .<br>" +
-"It includes a backslash: \\ .";
+let introduction = 'idk,\n' +
+"It: \' .<br>" +
+"It: \" .<br>" +
+"It: \\ .";
 
 document.getElementById('result').innerHTML = "introduction";
